@@ -12,8 +12,6 @@ logging.basicConfig(level=logging.INFO)
 if not config.BOT_TOKEN:
     exit("No token provided")
 
-#proxy = 'http://192.168.42.129:8080'
-
 # init
 bot = Bot(token=config.BOT_TOKEN, parse_mode="HTML")
 dp = Dispatcher()

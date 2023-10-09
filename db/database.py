@@ -8,43 +8,29 @@ class ControllerDB:
         self.cursor = self.conn.cursor()
 
     def user_exist(self, user_id):
-        """Проверяем, есть ли юзер в базе"""
+        """Check user in database"""
         result = self.cursor.execute("SELECT id FROM users WHERE user_id = ?", (user_id,))
         return bool(len(result.fetchall()))
 
     def add_user(self, user_id):
-        """Добавляем юзера в базу"""
+        """Add user in database"""
         self.cursor.execute("INSERT INTO users (user_id) VALUES (?)", (user_id,))
         return self.conn.commit()
 
     def get_users(self):
+        """Get all users Info"""
         result = self.cursor.execute("SELECT * FROM users")
         return result.fetchall()
 
-    def update_pay(self, user_id, updater_numb):
-        self.cursor.execute("UPDATE users SET is_pay = ? WHERE user_id = ?", (updater_numb, user_id,))
+    def upd_numb(self, summ, user_id):
+        """update user lottery number"""
+        self.cursor.execute("UPDATE users SET numb = ? WHERE user_id = ?", (summ, user_id,))
         return self.conn.commit()
 
-    def get_pay(self, user_id):
-        result = self.cursor.execute("SELECT is_pay FROM users WHERE user_id = ?", (user_id,))
-        return result.fetchone()[0]
-
-    def add_summ(self, summ, user_id):
-        self.cursor.execute("UPDATE users SET summ = ? WHERE user_id = ?", (summ, user_id,))
-        return self.conn.commit()
-
-    def get_summ(self, user_id):
-        result = self.cursor.execute("SELECT summ FROM users WHERE user_id = ?", (user_id,))
-        return result.fetchone()[0]
-
-    def add_timestamp(self, timestamp, user_id):
-        self.cursor.execute("UPDATE users SET timestamp = ? WHERE user_id = ?", (timestamp, user_id,))
-        return self.conn.commit()
-
-    def get_timestamp(self, user_id):
-        result = self.cursor.execute("SELECT timestamp FROM users WHERE user_id = ?", (user_id,))
+    def get_us_by_numb(self, numb):
+        result = self.cursor.execute("SELECT user_id FROM users WHERE numb = ?", (numb,))
         return result.fetchone()[0]
 
     def close(self):
-        """Закрываем соединение с БД"""
+        """close database connect"""
         self.close()
