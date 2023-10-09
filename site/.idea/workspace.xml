@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbcf4bd1-4bc1-4360-832c-889219a411aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keyboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/../keyboard.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2WUJN1jpICIJVVxXXXuXzZ4QnLV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\#D\#Python\teelgramContest\site" />
+      <recent name="F:\#D\#Python\teelgramContest\site\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\#D\#Python\teelgramContest\site" />
+      <recent name="F:\#D\#Python\teelgramContest\site\assets\images" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbcf4bd1-4bc1-4360-832c-889219a411aa" name="Default Changelist" comment="" />
+      <created>1696781181249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696781181249</updated>
+      <workItem from="1696781182857" duration="10000000" />
+      <workItem from="1696861020487" duration="17000" />
+      <workItem from="1696861047479" duration="1922000" />
+      <workItem from="1696863008884" duration="644000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="94" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1696861149141">
+      <screen x="0" y="0" width="1280" height="1024" />
+    </state>
+    <state x="94" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.1024@0.0.1280.1024" timestamp="1696861149141" />
+    <state x="370" y="259" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1696861287787">
+      <screen x="0" y="0" width="1280" height="1024" />
+    </state>
+    <state x="370" y="259" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.1024@0.0.1280.1024" timestamp="1696861287787" />
+    <state x="309" y="290" key="EditFileWatcherDialog" timestamp="1696861108821">
+      <screen x="0" y="0" width="1280" height="1024" />
+    </state>
+    <state x="309" y="290" key="EditFileWatcherDialog/0.0.1280.1024@0.0.1280.1024" timestamp="1696861108821" />
+    <state x="141" y="157" key="SettingsEditor" timestamp="1696861104376">
+      <screen x="0" y="0" width="1280" height="1024" />
+    </state>
+    <state x="141" y="157" key="SettingsEditor/0.0.1280.1024@0.0.1280.1024" timestamp="1696861104376" />
+  </component>
+</project>
