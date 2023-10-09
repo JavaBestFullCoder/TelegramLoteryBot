@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "RobotoBlack";
+  src: url("./assets/fonts/Roboto-Black.ttf");
+}
+.page {
+  font-family: "Roboto";
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: url("./assets/images/image.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page .header {
+  font-family: "RobotoBlack";
+  display: flex;
+  gap: 40px;
+  padding-top: 1rem;
+}
+.page .header .top-left-image {
+  margin-left: 1rem;
+  height: 228px;
+  width: 228px;
+}
+.page .header .top-left-image .image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.page .header .title-block {
+  font-weight: 700;
+}
+.page .header .title-block .title-first {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.page .header .title-block .title-second {
+  font-size: 36px;
+  text-align: center;
+}
+.page .main {
+  max-width: 420px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 100px;
+}
+.page .main .title {
+  font-family: "RobotoBlack";
+  font-size: 46px;
+  text-align: center;
+}
+.page .main .input {
+  width: 100%;
+  background: rgba(168, 167, 167, 0.7);
+  border: 0;
+  border-radius: 0%;
+  outline: none;
+  height: 70px;
+  font-size: 46px;
+  margin-top: 50px;
+  text-align: center;
+  color: #000;
+}
+.page .main .generate {
+  cursor: pointer;
+  font-size: 36px;
+  background: gray;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .page .header {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .page .header .top-left-image {
+    margin: 0 auto;
+  }
+  .page .header .title-block {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .page .main {
+    margin-top: 60px;
+  }
+  .page .main .input {
+    margin-top: 20px;
+  }
+  .page .main .generate {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
